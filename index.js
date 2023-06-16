@@ -1,10 +1,11 @@
 const Box = (props) => {
   //  Write your code here.
   const { text, box } = props;
-
-  <div className={box}>
-    <p>{text}</p>
-  </div>;
+  return (
+    <div className={box}>
+      <p>{text}</p>
+    </div>
+  );
 };
 
 const element = (

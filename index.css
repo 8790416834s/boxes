@@ -12,23 +12,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: flex-end;
 }
 
 .green-box {
   font-family: "Bree serif";
   background-color: #fbbf24;
   color: #ffffff;
-  margin: 20px;
+  align-self: flex-start;
+  padding: 10px;
 }
 .blue-box {
   font-family: "Bree serif";
   background-color: #38bdf8;
   color: #ffffff;
-  margin: 20px;
+  align-self: center;
+  padding: 10px;
 }
 .pink-box {
   font-family: "Bree serif";
   background-color: #ec4899;
   color: #ffffff;
-  margin: 20px;
+  align-self: stretch;
+  padding: 10px;
 }
