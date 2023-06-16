@@ -1,0 +1,34 @@
+/* Write your code here. */
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.heading {
+  font-family: "Roboto";
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.green-box {
+  font-family: "Bree serif";
+  background-color: #fbbf24;
+  color: #ffffff;
+  margin: 20px;
+}
+.blue-box {
+  font-family: "Bree serif";
+  background-color: #38bdf8;
+  color: #ffffff;
+  margin: 20px;
+}
+.pink-box {
+  font-family: "Bree serif";
+  background-color: #ec4899;
+  color: #ffffff;
+  margin: 20px;
+}
